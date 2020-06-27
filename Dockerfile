@@ -23,4 +23,4 @@ RUN make
 
 #Start
 WORKDIR /build/srt-live-server/bin/
-RUN ["./sls", "-c", "../sls.conf"]
+CMD ["./sls", "-c", "../sls.conf"]
